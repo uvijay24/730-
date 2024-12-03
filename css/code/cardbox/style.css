@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 300px;
+    width: 400px;
+   background-color: rgb(160, 111, 187);
+display: flex;
+margin: 1px;}
+.cont{
+      height: 500px;
+    width: 500px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    height:240px ;
+    width: 130px;
+    background-color: blue;
+    
+   
+    
+}z
+.box2{
+    height:240px ;
+    width: 130px;
+    background-color: rgb(221, 116, 209);
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:hsl(30, 38%, 92%) ;
+    font-family: "Fraunces", serif;
+   
+font-size: 14px;
+  
+}
+
+box{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    margin: 10px;
+    White: hsl(0, 0%, 100%)
+    padding: 20px;
+    
+   
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.cont{
+    height: 330px; 
+    width: 450px;
+    display: flex;
+   
+ justify-content: center;
+    border-radius: 20px;
+    padding: 20xp;
+}
+.box1>img{
+    height: 318px;
+    width: 220px;
+    border-radius: 10px;
+}
+.box2{
+    height: 318px;
+    width: 233px;
+    padding: 15px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+   justify-content: space-between;
+    align-content: center;
+    background-color:  hsl(0, 0%, 100%);
+   h1{
+    font-weight: 700;
+   }
+ 
+   p{
+    font-family: "Montserrat", sans-serif;
+
+    font-weight: 300;
+   }
+    div{
+        display: flex;
+        justify-content: space-between;
+    
+    h3{text-decoration: line-through;
+
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+button{
+    color: white;
+    padding:8px ;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%)
+    
+}
+
+h2{
+    color:  hsl(158, 36%, 37%)
+}   
+} 
