@@ -1,0 +1,13 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 10px 0px;
+    font-size: 30px;
+    color: white;
+}
+.box:hover{
+transform: rotate(45deg)
+
+    background-image: url(https://cdn.pixabay.com/photo/2024/02/19/08/49/hibiscus-8582876_640.jpg);
+}

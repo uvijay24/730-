@@ -1,0 +1,36 @@
+body{
+    height:100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   background-repeat: no-repeat;
+}
+.box{
+    height:100px;
+    width: 100px;
+    background-color:pink;
+    border: 1px solid black;
+    position: absolute;
+    background-size: cover;
+   
+   
+}
+.box1{
+    top:0;
+    right: 0;
+    
+}
+.box2{
+    top:0;
+    left: 0;
+}
+.box3{
+    bottom: 0;
+    left: 0;
+}
+.box4{
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+  
+ }
+h2{
+text-align: center;
+}
+.parent{
+    height: 50vh;
+    width: 60vw;
+    border: 5px solid  black;
+  display: grid;
+  gap: 10px  ;
+  background-color: black;
+  grid-template-columns: repeat( 3,1fr);
+ column-rule: 10px black;
+ padding: 10px;
+
+    } 
+    .child{
+        background-color:black;
+        border: 1px solid black;
+        font-size: 40px;
+        color: black;
+        text-align:center;
+align-content: center;
+    gap: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+  
+    }
+    .child1{
+        background-image: url(https://cdn.pixabay.com/photo/2024/02/19/08/49/hibiscus-8582876_640.jpg);
+       grid-column: 1/2;
+       grid-row:1/2;
+       background-color:#FDD835;
+   
+ 
+
+    }
+    .child2{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIMDI-nHs9LID8j_nNvfplgDwtWn56f2O0UQ&s);
+        grid-column: 1/2;
+        grid-row:2/3;
+        background-color: #D32F2F;
+
+        
+    }
+    .child3{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrBwARZpC1OVgQCHh9JbNmL52o4rWFjVwlEw&s);
+        grid-column: 1/2;
+        grid-row: 3/6;
+        background-color:#FDD835;
+    }
+    
+    .child4{
+        background-image: url(https://freshknots.in/wp-content/uploads/2023/03/rose.png.webp);
+        grid-column: 2/3;
+        grid-row: 1/4;
+       background-color:#1976D2;
+    }
+    .child5{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLf5yuwcqCbxN_LcGDUqTTYk8jAbJ0-69oCg&s);
+        grid-column: 2/3;
+        grid-row: 4/6;
+        background-color: #D32F2F;
+        
+    }
+    .child6{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkNrhC9F_Qs1fdhEQdbZoDrDTql4MmQGxBg&s);
+        grid-column: 3/4;
+        grid-row: 1/2;
+        background-color:#FDD835;
+    }
+
+    
+    .child7{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUT2jLYoIC9Lg65AVA5KhEUdJdWFm0-vznZg&s);
+        grid-row: 2/5;
+        grid-column: 3/4;
+        background-color: #D32F2F;
+
+    }
+    .child8{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlxwe2c9AWEcLDGNbp3Kgs0P5YZlXWdK-V7A&s);
+        grid-row: 5/6;
+        grid-column: 3/4;
+        background-color:#1976D2;
+    }
+    
